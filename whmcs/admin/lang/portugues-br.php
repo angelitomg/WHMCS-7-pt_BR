@@ -3092,43 +3092,43 @@ $_ADMINLANG['ticketstatusconfig']['autoclose'] = "Fechar Automaticamente?";
 $_ADMINLANG['ticketstatusconfig']['statuscolor'] = "Cor do Status";
 
 # Config Security Questions
-$_ADMINLANG['securityquestionconfig']['add'] = "Add Security Question";
-$_ADMINLANG['securityquestionconfig']['edit'] = "Edit Security Question";
-$_ADMINLANG['securityquestionconfig']['question'] = "Question";
-$_ADMINLANG['securityquestionconfig']['questions'] = "Questions";
-$_ADMINLANG['securityquestionconfig']['uses'] = "Uses";
-$_ADMINLANG['securityquestionconfig']['delsuresecurityquestion'] = "Click OK if you are sure you want to delete this question?";
-$_ADMINLANG['securityquestionconfig']['changesuccess'] = "Question Edited Successfully!";
-$_ADMINLANG['securityquestionconfig']['changesuccessinfo'] = "The question has been saved successfully";
-$_ADMINLANG['securityquestionconfig']['addsuccess'] = "Question Added Successfully!";
-$_ADMINLANG['securityquestionconfig']['error'] = "An Error Occurred";
-$_ADMINLANG['securityquestionconfig']['errorinfo'] = "You cannot delete a Security Question while it is in use";
-$_ADMINLANG['securityquestionconfig']['delsuccess'] = "Question Deleted Successfully!";
-$_ADMINLANG['securityquestionconfig']['delsuccessinfo'] = "The selected Security Question has now been deleted.";
+$_ADMINLANG['securityquestionconfig']['add'] = "Adicionar Pergunta de Segurança";
+$_ADMINLANG['securityquestionconfig']['edit'] = "Editar Pergunta de Segurança";
+$_ADMINLANG['securityquestionconfig']['question'] = "Pergunta";
+$_ADMINLANG['securityquestionconfig']['questions'] = "Perguntas";
+$_ADMINLANG['securityquestionconfig']['uses'] = "Usos";
+$_ADMINLANG['securityquestionconfig']['delsuresecurityquestion'] = "Clique em OK se tiver certeza de que deseja excluir esta pergunta?";
+$_ADMINLANG['securityquestionconfig']['changesuccess'] = "Pergunta Editada com Sucesso!";
+$_ADMINLANG['securityquestionconfig']['changesuccessinfo'] = "A pergunta foi salva com sucesso";
+$_ADMINLANG['securityquestionconfig']['addsuccess'] = "Pergunta Adicionada com Sucesso!";
+$_ADMINLANG['securityquestionconfig']['error'] = "Um Erro Ocorreu";
+$_ADMINLANG['securityquestionconfig']['errorinfo'] = "Você não pode excluir uma pergunta de segurança enquanto ela está em uso";
+$_ADMINLANG['securityquestionconfig']['delsuccess'] = "Pergunta Excluída com Sucesso!";
+$_ADMINLANG['securityquestionconfig']['delsuccessinfo'] = "A pergunta de segurança selecionada foi excluída.";
 
 # Gateway Log
-$_ADMINLANG['gatewaytranslog']['gatewaytranslogtitle'] = "Gateway Transaction Log";
+$_ADMINLANG['gatewaytranslog']['gatewaytranslogtitle'] = "Log de Transações do Gateway";
 $_ADMINLANG['gatewaytranslog']['gateway'] = "Gateway";
-$_ADMINLANG['gatewaytranslog']['debugdata'] = "Debug Data";
-$_ADMINLANG['gatewaytranslog']['filter'] = "Filter";
+$_ADMINLANG['gatewaytranslog']['debugdata'] = "Dados de Debug";
+$_ADMINLANG['gatewaytranslog']['filter'] = "Filtro";
 
 # Mass Mail
-$_ADMINLANG['massmail']['pagedesc'] = "This mass mail tool allows you to send emails to selective groups of your clients. The type of email you choose to send will determine what merge fields you can include within it. For example, sending a product/service related email allows you to include product specific items like domain, usernames, server, next due date, etc... Use Ctrl+Click to make multiple selections.";
-$_ADMINLANG['massmail']['messagetype'] = "Message Type";
-$_ADMINLANG['massmail']['emailtype'] = "Email Type";
-$_ADMINLANG['massmail']['clientstatus'] = "Client Status";
-$_ADMINLANG['massmail']['domainstatus'] = "Domain Status";
-$_ADMINLANG['massmail']['clientcriteria'] = "Client Criteria";
-$_ADMINLANG['massmail']['domaincriteria'] = "Domain Criteria";
-$_ADMINLANG['massmail']['productservicecriteria'] = "Product/Service Criteria";
-$_ADMINLANG['massmail']['productservicestatus'] = "Product/Service Status";
-$_ADMINLANG['massmail']['assignedserver'] = "Assigned Server";
-$_ADMINLANG['massmail']['addoncriteria'] = "Addon Criteria";
-$_ADMINLANG['massmail']['addonstatus'] = "Addon Status";
-$_ADMINLANG['massmail']['sendforeachdomain'] = "Send for Each Domain";
-$_ADMINLANG['massmail']['tickboxsendeverymatchingdomain'] = " Tick this box to send an email for every matching domain *";
-$_ADMINLANG['massmail']['footnote'] = "* By default, a customer will receive only one copy of the mailing containing merge data for the first matching product found in their account. However, ticking this box will mean an email is sent for each item that matches the given criteria and therefore a single client may receive the email multiple times - once for each qualifying product they have.";
-$_ADMINLANG['massmail']['composemsg'] = "Compose Message";
+$_ADMINLANG['massmail']['pagedesc'] = "Esta ferramenta de email em massa permite que você envie emails para grupos específicos de clientes. O tipo de email que você escolher enviar determinará quais campos de mesclagem você pode incluir nela. Por exemplo, enviar um email relacionado a um produto/serviço permite incluir itens específicos do produto, como domínio, nomes de usuário, servidor, data de vencimento seguinte, etc ... Use Ctrl + Clique para fazer seleções múltiplas.";
+$_ADMINLANG['massmail']['messagetype'] = "Tipo de Mensagem";
+$_ADMINLANG['massmail']['emailtype'] = "Tipo de Email";
+$_ADMINLANG['massmail']['clientstatus'] = "Status do Cliente";
+$_ADMINLANG['massmail']['domainstatus'] = "Status do Domínio";
+$_ADMINLANG['massmail']['clientcriteria'] = "Critérios de Cliente";
+$_ADMINLANG['massmail']['domaincriteria'] = "Critérios de Domínio";
+$_ADMINLANG['massmail']['productservicecriteria'] = "Critérios de Produto/Serviço";
+$_ADMINLANG['massmail']['productservicestatus'] = "Status do Produto/Serviço";
+$_ADMINLANG['massmail']['assignedserver'] = "Servidor Atribuído";
+$_ADMINLANG['massmail']['addoncriteria'] = "Critérios de Addon";
+$_ADMINLANG['massmail']['addonstatus'] = "Status de Addon";
+$_ADMINLANG['massmail']['sendforeachdomain'] = "Enviar para Cada Domínio";
+$_ADMINLANG['massmail']['tickboxsendeverymatchingdomain'] = " Marque esta caixa para enviar um email para cada domínio correspondente *";
+$_ADMINLANG['massmail']['footnote'] = "* Por padrão, um cliente receberá apenas uma cópia do envio contendo dados de mesclagem para o primeiro produto correspondente encontrado em sua conta. No entanto, marcar essa caixa significa que um email é enviado para cada item que corresponde aos critérios fornecidos e, portanto, um único cliente pode receber o email várias vezes - uma vez para cada produto qualificado que eles têm.";
+$_ADMINLANG['massmail']['composemsg'] = "Compor Mensagem";
 
 # Promotions
 $_ADMINLANG['promos']['title'] = "Promotions/Coupons";
