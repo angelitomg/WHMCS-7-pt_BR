@@ -1699,6 +1699,7 @@ $_LANG['domainsCancelled'] = "Cancelado";
 $_LANG['domainsFraud'] = "Fraude";
 $_LANG['domainsPending'] = "Pendente";
 $_LANG['domainsPendingTransfer'] = "Transferencia Pendente";
+$_LANG['domainsTransferredAway'] = "Transferred Away";
 $_LANG['domainsExpiringInTheNext30Days'] = "Empira em 30 Dias";
 $_LANG['domainsExpiringInTheNext90Days'] = "Empira em 90 Dias";
 $_LANG['domainsExpiringInTheNext180Days'] = "Empira em 180 Dias";
@@ -1753,7 +1754,7 @@ $_LANG['quoteacceptcontractwarning'] = "Por favor, esteja ciente de que aceitar 
 $_LANG['clientAlerts']['creditCardExpiring'] = "Seu cartão de crédito :creditCardType-:creditCardLastFourDigits expira em :days dias. Por favor, atualize-o mais cedo possível.";
 $_LANG['clientAlerts']['domainsExpiringSoon'] = "Você tem :numberOfDomains domínio (s) exirando em :days dias.";
 $_LANG['clientAlerts']['invoicesUnpaid'] = "Você tem :numberOfInvoices fatura não paga (s).";
-$_LANG['clientAlerts']['invoicesOverdue'] = "Você tem :numberOfInvoices fatura em atraso (s) com um saldo total devido de :balanceDue. Pagar-lhes agora para evitar qualquer interuptions em serviço.";
+$_LANG['clientAlerts']['invoicesOverdue'] = "Você tem :numberOfInvoices fatura em atraso (s) com um saldo total devido de :balanceDue. Pagar agora para evitar qualquer interrupção no serviço.";
 $_LANG['clientAlerts']['creditBalance'] = "Você tem um saldo de crédito de :creditBalance.";
 
 // Client homepage panels
@@ -1764,7 +1765,7 @@ $_LANG['clientHomePanels']['overdueInvoicesMsg'] = "Voçê tem :numberOfInvoices
 $_LANG['clientHomePanels']['domainsExpiringSoon'] = "Domínios expirando em breve";
 $_LANG['clientHomePanels']['domainsExpiringSoonMsg'] = "Voçê tem :numberOfDomains domínio (s) que termina no próximo :days dias. Renove hoje";
 $_LANG['clientHomePanels']['activeProductsServices'] = "Produtos/Serviços";
-$_LANG['clientHomePanels']['activeProductsServicesNone'] = "Parece que você não tem nenhum produtos ou serviços com a gente ainda. <a href=\"cart.php\"> Clique aqui para conheçer nosso sprodutos</a>.";
+$_LANG['clientHomePanels']['activeProductsServicesNone'] = "Parece que você não adquiriu nossos produtos ou serviços ainda. <a href=\"cart.php\"> Clique aqui para conheçer nossos produtos</a>.";
 $_LANG['clientHomePanels']['recentNews'] = "Ultímas Notícias";
 $_LANG['clientHomePanels']['affiliateProgram'] = "programa de afiliados";
 $_LANG['clientHomePanels']['recentSupportTickets'] = "Tickets";
@@ -2119,9 +2120,28 @@ $_LANG['orderForm']['domainPriceTransferLabel'] = "Transfer to us and extend by 
 
 $_LANG['change'] = "Change";
 
+$_LANG['filemanagement']['nofileuploaded'] = "No file uploaded.";
+$_LANG['filemanagement']['invalidname'] = "Valid filenames contain only alpha-numeric, dot, hyphen and underscore characters.";
+$_LANG['filemanagement']['couldNotSaveFile'] = "Could not save uploaded file.";
+$_LANG['filemanagement']['checkPermissions'] = "Please check permissions.";
+$_LANG['filemanagement']['checkAvailableDiskSpace'] = "Please check available disk space.";
+$_LANG['filemanagement']['fileAlreadyExists'] = "File already exists.";
+$_LANG['filemanagement']['noUniqueName'] = "Unable to find a unique filename.";
+
 $_LANG['cartSimpleCaptcha'] = "Please enter the code shown below";
 
 $_LANG['clientHomePanels']['showingRecent100'] = "Showing the most recent 100 records";
 $_LANG['orderForm']['domainLetterOrNumber'] = "Domains must begin with a letter or a number";
 $_LANG['orderForm']['domainLengthRequirements'] = " and be between <span class=\"min-length\"></span> and <span class=\"max-length\"></span> characters in length";
+
+$_LANG['clientareatransferredaway'] = "Transferred Away";
+$_LANG['clientareacompleted'] = "Completed";
+$_LANG['domainContactUs'] = "Contact Us";
+
+$_LANG['orderForm']['shortPerYear'] = "/:yearsyr";
+$_LANG['orderForm']['shortPerYears'] = "/:yearsyrs";
+
+$_LANG['domainCheckerSalesGroup']['sale'] = "Sale";
+$_LANG['domainCheckerSalesGroup']['hot'] = "Hot";
+$_LANG['domainCheckerSalesGroup']['new'] = "New";
 ////////// End of portuguese-br language file.  Do not place any translation strings below this line!
